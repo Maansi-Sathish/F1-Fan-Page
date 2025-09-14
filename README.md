@@ -9,7 +9,7 @@ This project was created as a learning exercise to practice front-end web design
 ---
 
 ## 🌐 Website Structure
-- **Home Page (`index.html`)** → Intro with logo, theme, and overview  
+- **Home Page (`index.html`)** → Intro with logo, theme, and overview   
 - **About Page (`second.html`)** → Cars, drivers, and racing history  
 - **Discussion Page (`third.html`)** → A simple form where fans can share thoughts  
 
