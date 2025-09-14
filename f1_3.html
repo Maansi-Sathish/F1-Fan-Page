@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>Wanna Discuss?</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, p {
+            color: red;
+            margin: 20px 0;
+        }
+
+        form {
+            margin: 30px auto;
+            max-width: 600px;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type=submit], input[type=reset] {
+            width: auto;
+            background: red;
+            color: white;
+            cursor: pointer;
+            margin: 10px 5px;
+            padding: 10px 20px;
+        }
+
+        input[type=submit]:hover, input[type=reset]:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Discussion Page</h1>
+    <h2>All the F1 Fans fill up here!</h2>
+    <p>Here is a form for all the F1 fans to fill to discss all the crazies happening in 2025 race!</p>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="email">Enter email-id:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Enter Phone Number:</label>
+        <input type="number" name="phone">
+
+        <label for="birthday">Enter your Birthday:</label>
+        <input type="date" name="birthday">
+
+        <label for="color">Enter your favorite color:</label>
+        <input type="color" name="fav_color">
+
+        <label for="time">Enter time:</label>
+        <input type="time" name="tt">
+
+        <p>Enter your gender:</p>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <label><input type="radio" name="gender" value="others" required> Others</label>
+
+        <p>Choose your favorite F1 teams:</p>
+        <select>
+            <option>Mercedes</option>
+            <option>Ferrari</option>
+            <option>Red Bull</option>
+            <option>McLaren</option>
+            <option>Williams</option>
+            <option>Aston Martin</option>
+        </select>
+
+        <p>Choose your favorite F1 Racer:</p>
+        <label><input type="radio" name="fav_racer" value="Lewis"> Lewis Hamilton</label>
+        <label><input type="radio" name="fav_racer" value="Charles"> Charles Leclarc</label>
+        <label><input type="radio" name="fav_racer" value="Max"> Max Verstappen</label>
+        <label><input type="radio" name="fav_racer" value="Carlos"> Carlos Sainz</label>
+
+        <label>Type your thoughts for the ongoing race?</label>
+        <textarea name="thoughts" rows="5" cols="50"></textarea>
+
+        <br>
+        <input type="reset" value="Reset form">
+        <input type="submit" value="Submit fo
